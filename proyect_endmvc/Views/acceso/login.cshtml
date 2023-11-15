@@ -1,0 +1,98 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inicio de Sesión</title>
+    <link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-- Barra de navegación (Navbar) -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary me-2" type="button">Button 1</button>
+                    <button class="btn btn-primary" type="button">Button 2</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <!-- Imagen redondeada y centrada en la parte superior del formulario -->
+                    <div class="text-center mt-3">
+                        <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/03/04/6F3E2E33-8AAF-4607-8B3E-80261F00FB86/naruto_98.jpg?crop=1920,1080,x0,y0&width=1900&height=1069&optimize=high&format=webply" 
+                             class="rounded-circle" alt="Imagen de encabezado" style="width: 100px; height: 100px;">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Inicio de Sesión</h5>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="InputUsername">Nombre de Usuario</label>
+                                <input type="text" class="form-control" id="InputUsername" placeholder="Ingresa tu Nombre de Usuario">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block mt-3">Iniciar Sesión</button>
+                        </form>
+                        </form>
+
+                        <p class="text-center mt-3">
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
